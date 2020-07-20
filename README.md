@@ -1,16 +1,9 @@
-It's me, Tierney!
+hello! 👋🏻 This is my npm card.
 
-# Usage
+## Usage
 
-## npm
-```
-npx bitandbang
-```
+Run `npx jendowns` to show my npm card in your terminal. 💖
 
-## GitHub Package Registry
-Assuming you have the GitHub registry set up, you can use via npx:
-```
-npx @bnb/card
-```
+## Credits
 
-Not including how to use it globally because I'm not sure why you'd want this as a global command. That'd be creepy.
+⭐️ Forked from [Tierney Cyren's npm card](https://github.com/bnb/bitandbang)
