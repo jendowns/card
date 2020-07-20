@@ -8,30 +8,28 @@ const path = require("path");
 const options = {
   padding: 1,
   margin: 1,
-  borderColor: "magenta",
-  borderStyle: "round",
-  float: "center"
+  borderColor: "magenta"
 };
 
 const data = {
-  name: chalk.magenta.bold("                   Jen Downs"),
+  name: chalk.magenta.bold("                 Jen Downs"),
   web:
-    chalk.magenta.bold("        Web:") +
+    chalk.magenta.bold("      Web:") +
     chalk.white("   https://") +
     chalk.cyan("jendowns.com"),
   npm:
-    chalk.magenta.bold("        npm:") +
+    chalk.magenta.bold("      npm:") +
     chalk.white("   https://npmjs.com/") +
     chalk.cyan("~jendowns"),
   github:
-    chalk.magenta.bold("     GitHub:") +
+    chalk.magenta.bold("   GitHub:") +
     chalk.white("   https://github.com/") +
     chalk.cyan("jendowns"),
   linkedin:
-    chalk.magenta.bold("   LinkedIn:") +
+    chalk.magenta.bold(" LinkedIn:") +
     chalk.white("   https://linkedin.com/in/") +
     chalk.cyan("jendowns"),
-  npx: chalk.magenta.bold("                $ ") + 
+  npx: chalk.magenta.bold("              $ ") +
     chalk.cyan("npx jendowns")
 };
 
